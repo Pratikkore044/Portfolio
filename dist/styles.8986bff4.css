@@ -148,5 +148,23 @@ body {
   } */
 }
 
+#printbutton{
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-color: beige;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+}
+@media print{
+  #printbutton{
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */
