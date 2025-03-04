@@ -1,6 +1,7 @@
-node_modules/*
-# dist/*
-.cache/*
+node_modules/
+dist/
+.cache/
 .env
-.github
+.github/
 package-lock.json
+.firebaserc

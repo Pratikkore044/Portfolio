@@ -119,13 +119,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"index.js":[function(require,module,exports) {
 function printPage() {
-  window.print(); // Opens the print dialog
-
-  // Log a message to the console (fixed the incorrect reference to function name)
+  window.print();
   console.log("Print button clicked");
 }
-
-// Attach the event listener to the button after defining the function
 document.getElementById("printbutton").addEventListener("click", printPage);
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -152,7 +148,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50157" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51923" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

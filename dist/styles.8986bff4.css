@@ -57,7 +57,6 @@ body {
 .designation {
   margin: 0;
   font-size: large;
-  /* width: 100%; */
 }
 .company-name {
   margin: 0.2rem 0rem;
@@ -106,7 +105,6 @@ body {
   flex-grow: 1;
   animation: growInFade 1s ease-in alternate;
   transition: all 1s ease-in;
-  /* animation-timing-function: ease-in; */
 }
 
 .contact-links {
@@ -129,23 +127,11 @@ body {
 
 @keyframes growInFade {
   from {
-    /* width: 0%; */
     opacity: 0%;
   }
   to {
-    /* width: auto; */
     opacity: 100%;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .hero {
-    justify-content: center;
-    text-align: center;
-  }
-  /* .hero__content {
-    width: 100%;
-  } */
 }
 
 #printbutton{
@@ -166,5 +152,42 @@ body {
     display: none;
   }
 }
+
+/* xl */
+@media (max-width: 1280px) {
+  .secondary-content .main-content {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .secondary-content .main-content{
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .secondary-content .main-content{
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .secondary-content .main-content{
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .secondary-content .main-content{
+    width: 100%;
+  }
+}
+
+
 
 /*# sourceMappingURL=/styles.8986bff4.css.map */

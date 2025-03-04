@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["printaspdf","window","print"],"mappings":";AAAA,SAASA,IACPC,OAAOC","file":"src.fc7de5f7.js","sourceRoot":"../src","sourcesContent":["function printaspdf() {\n  window.print;\n}\n"]}
